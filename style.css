@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.background{
+    background-image: url(images/img/background.png);
+  background-size: cover;
+  height: 900px;
+}
+.flex{
+    display: flex;
+}
+.header-wrapper{
+    justify-content: space-between;
+    width: 1512px;
+}
+header img{
+    width: 27px;
+    margin-left: 27px;
+    margin-top: 23px;
+}
+header{
+    margin-top: -890px;
+    color: white;
+}
+.margin-for-li{
+    margin-right: 50px;
+}
+ul {
+    list-style-type: none;
+    margin-top: 28px;
+}
+h1{
+    color: #FFFFFF;
+    margin-top: 812px;
+    margin-left: 180px;
+}
+
