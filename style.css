@@ -3,6 +3,10 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: #F7F7F7;
+    font-family: Tisa OT;
+}
 .background{
     background-image: url(images/img/background.png);
   background-size: cover;
@@ -26,6 +30,7 @@ header{
 }
 .margin-for-li{
     margin-right: 50px;
+    display: flex;
 }
 ul {
     list-style-type: none;
@@ -33,7 +38,80 @@ ul {
 }
 h1{
     color: #FFFFFF;
-    margin-top: 812px;
-    margin-left: 180px;
+    margin-top: 790px;
+    margin-left: 180px;;
 }
-
+.margin-for-li::after{
+    content:"";
+	display: block;
+	width: 1px;
+	height: 15px;
+	background-color: #FFFFFF;
+    margin-left: 25px;
+}
+.grid{
+    display: grid;
+}
+.wrapper{
+    display: grid;
+    justify-content: start;
+    height: 500px;
+}
+h6{
+    color: #262626;
+    margin-left: 180px;
+    margin-top: 70px;
+    font-weight: 100;
+}
+.box{
+    margin-left: 19px;
+    margin-top: 7px;
+    color: #FFFFFF;
+}
+.little-box{
+    margin-top: -125px;
+    margin-left: 269px;
+    width: 87.33px;
+    height: 25px;
+    background-color: #0865DE;
+    display: grid;
+    justify-content: start;
+}
+.title-location{
+    margin-left: 180px;
+    margin-top: -160px;
+    height: 70px;
+}
+.title-location h2{
+    font-weight: 200;
+}
+.txt-location{
+    height: 150px;
+    width: 1000px;
+    margin-left: 180px;
+    margin-top: -150px;
+}
+.txt-location h3{
+    font-weight: 50;
+}
+.little-bar{
+    color: #959595;
+    display: grid;
+    justify-content: start;
+}
+.first{
+    margin-left: 180px;
+    margin-top:  -60px;: ;
+}
+.second{
+    margin-left: 360px;
+    margin-top: -60px;
+}
+.third{
+    margin-left: 450px;
+    margin-top: -60px;
+}
+.forth{
+    margin-left: 450px;
+    margin-top: -30px;
+}
